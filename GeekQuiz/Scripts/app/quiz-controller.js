@@ -7,7 +7,7 @@
         $scope.working = false;
 
         $scope.answer = function() {
-            return $scope.correctAnswer ? 'correct' : 'incorrect'
+            return $scope.correctAnswer ? 'correct' : 'incorrect';
         };
 
         $scope.nextQuestion = function() {
